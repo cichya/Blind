@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+<!--<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Text Message" />-->
+<!--<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Click WhatISeeCommand"
+        android:text="TakePhoto" />-->
+<!--<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Click GetLocationCommand"
+        android:text="GetLocation" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Click GeocodingCommand"
+        android:text="Geocoding" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Click GetBusStopsCommand"
+        android:text="Get Bus Stops" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Click GetPekaMonitorCommand"
+        android:text="Get Peka Monitor" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Click GetTranslateCommand"
+        android:text="Tranlate" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Click CheckSettingsCommand"
+        android:text="Check Settings" />-->
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/eye"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        local:MvxBind="Visibility Visibility(WhatISeeButtonVisible); Click WhatISeeCommand" />
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/eye"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        local:MvxBind="Visibility Visibility(OcrReaderButtonVisible); Click ReadTextCommand" />
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/eye"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        local:MvxBind="Click SpeechToTextCommand" />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/eye"
+        android:scaleType="fitCenter" />
+<!--<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Visibility Visibility(GetBanknoteDenominationButtonVisible); Click GetBanknoteDenominationCommand"
+        android:text="Banknote" />-->
+<!--<ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        local:MvxBind="Bitmap MyImage"
+        android:scaleType="fitCenter" />-->
+</GridLayout>
